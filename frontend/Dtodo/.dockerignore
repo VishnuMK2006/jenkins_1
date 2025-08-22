@@ -1,0 +1,25 @@
+# Node modules (will be installed inside the container)
+node_modules
+
+# Build output (will be generated inside the container)
+dist
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# OS / Editor specific files
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.swp
+
+# Git
+.git
+.gitignore
+
+# Logs
+logs
+*.log
